@@ -1,0 +1,57 @@
+nav.menu_nav ul li.btn{
+    display: inline-block;
+}
+
+nav.menu_nav ul li.btn a{
+    color: rgb(204, 11, 204);
+    background-color: rgb(16, 23, 37);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 50px;
+}
+
+nav.menu_nav ul li.btn:hover a{
+    background-color: rgba(16, 23, 37, 0.555);
+    transition: 0.25s all;
+}
+
+nav.menu_nav ul li{
+    list-style-type: none;
+}
+
+p{
+    text-align: center;
+    color: rgb(255, 0, 242)
+}
+
+p.poeme{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 0, 242)
+}
+
+h1.titre{
+    color: rgb(226, 7, 135);
+    background-color: rgba(0, 0, 0, 0.472);
+}
+
+body{
+    background: url("../img/dessin_de_babet.png") no-repeat; background-size: 100%;
+}
+
+h1.test1{
+    color: rgb(77, 153, 27);
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.24);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.24);
+}
+div#content div.video{
+    background-color: rgba(0, 0, 0, 0.198);
+}
+
+div.video{
+    text-align: center;
+}
