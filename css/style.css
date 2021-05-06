@@ -28,6 +28,7 @@ nav.menu_nav ul li{
 }
 
 p{
+    font-size: 2vmin;
     text-align: center;
     color: rgb(255, 0, 242)
 }
