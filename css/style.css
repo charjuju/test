@@ -46,6 +46,7 @@ h1.titre{
 
 body{
     background: url("../img/dessin_de_babet.png") no-repeat; background-size: 100%;
+    background-attachment:fixed;
 }
 
 h1.test1{
