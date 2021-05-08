@@ -27,17 +27,32 @@ nav.menu_nav ul li{
     list-style-type: none;
 }
 
+h1 {
+    padding:50px
+}
+
+div.poemee {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:80px;
+    font-size:20px;
+    background-color: rgba(155, 158, 155, 0.233);
+}
+
 p{
     font-size: 2vmin;
     text-align: center;
     color: rgb(255, 0, 242)
-    
 }
 
 p.poeme{
     font-size: 50px;
     text-align: center;
     color: rgb(255, 0, 242)
+}
+
+p.titre{
+    padding:50px
 }
 
 h1.titre{
@@ -77,3 +92,11 @@ a.button:hover{
     background-color: rgba(16, 23, 37, 0.555);
     transition: 0.25s all;
 }
+
+p.poeme {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+p.poeme:hover {
+    transform: scale(1.1);
+    }
