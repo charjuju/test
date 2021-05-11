@@ -69,9 +69,11 @@ body{
 h1.test1{
     color: rgb(77, 153, 27);
 }
+
 footer{
     background-color: rgba(0, 0, 0, 0.24);
 }
+
 header{
     background-color: rgba(0, 0, 0, 0.24);
 }
