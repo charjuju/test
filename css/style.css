@@ -10,18 +10,22 @@ header {
     list-style-type: none;
 }
 
+nav.menu_nav ul li.btn {
+    padding: 10px;
+}
+
 nav.menu_nav ul li.btn a{
     color: rgb(204, 11, 11);
     background-color: rgba(16, 23, 37, 0.507);
     text-decoration: none;
-    padding: 10px;
     font-size: 10vmin;
 }
 
 nav.menu_nav ul li.btn:hover a{
+    padding: 10px;
     color: rgb(204, 11, 172);
     background-color: rgba(16, 23, 37, 0.555);
-    transition: 0.25s all;
+    transition: 0.5s all;
 }
 
 nav.menu_nav ul li{
@@ -109,5 +113,5 @@ iframe {
 }
 
 header {
-    padding: 50px
+    padding: 50px;
 }
