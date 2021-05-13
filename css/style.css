@@ -15,10 +15,11 @@ nav.menu_nav ul li.btn {
 }
 
 nav.menu_nav ul li.btn a{
+    padding: 10px;
     color: rgb(204, 11, 11);
     background-color: rgba(16, 23, 37, 0.507);
     text-decoration: none;
-    font-size: 10vmin;
+    font-size: 20vmin;
 }
 
 nav.menu_nav ul li.btn:hover a{
