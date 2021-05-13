@@ -1,0 +1,26 @@
+.slider {
+    width: 205px;
+    overflow: hidden;
+}
+.slides {
+    width: calc(205px * 3);
+    animation: glisse 5s infinite;
+}
+.slide {
+    float: left;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-205);
+    }
+    66% {
+        transform: translateX(-410);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
